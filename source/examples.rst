@@ -29,7 +29,7 @@ Change Password
 
 .. code-block:: python
 
-   exam_summary = client.change_password(new_password="newwww")
+ client.change_password(new_password="newwww")
 
 
 Change profile Picture 
@@ -37,4 +37,4 @@ Change profile Picture
 
 .. code-block:: python
 
-   exam_summary = client.upload_profile(img_path='new.png')
+ client.upload_profile(img_path='new.png')
