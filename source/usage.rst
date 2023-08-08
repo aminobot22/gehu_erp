@@ -11,11 +11,12 @@ To start using Gehu_erp, follow these steps:
 
 2. Create a client instance:
 
+--use_config in Client to save you login details so that you won't have to login again and again
+
 .. code-block:: python
 
-   client = erp.Client()
+   client = erp.Client(use_config=True)
 
-   --use_config in Client to save you login details so that you won't have to login again and again 
 
 3. Generate session and log in:
 
