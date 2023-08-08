@@ -6,9 +6,8 @@ Retrieve Student Details
 
 .. code-block:: python
 
-   data = client.info()
-   for key, value in data.items():
-       print(f"{key}: {value}")
+   data = client.student_info()
+   print(data)
 
 Upload Profile Image
 ---------------------
@@ -24,3 +23,18 @@ Get Exam Summary
 
    exam_summary = client.exam_Summary()
    print(exam_summary)
+
+Change Password 
+----------------
+
+.. code-block:: python
+
+   exam_summary = client.change_password(new_password="newwww")
+
+
+Change profile Picture 
+----------------
+
+.. code-block:: python
+
+   exam_summary = client.upload_profile(img_path='new.png')
