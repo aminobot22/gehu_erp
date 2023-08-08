@@ -40,6 +40,10 @@ To use Gehu_erp, you need to install it via pip. First, ensure you have Python i
 ```
 pip install Gehu_erp
 ```
+## Docs
+
+For more information and examples, please visit the [documentation](https://gehu-erp.readthedocs.io/en/latest/index.html).
+
 
 ## Dependencies
 
@@ -61,5 +65,4 @@ If you would like to contribute to Gehu_erp, feel free to submit a pull request 
 ## Acknowledgments
 
 - Thanks to the developers of `requests`, `Pillow`, and `beautifulsoup4` for their excellent libraries.
-- Special thanks to the developers and maintainers of the GEHU Student API for providing the API that this library interacts with.
-```
+- Special thanks to the developers and maintainers of the GEHU Student API for providing the API that this library interacts with.```
