@@ -1,6 +1,6 @@
-# Gehu_erp - A Python Library for Interacting with GEHU Student API
+# Gehu_erp - A Unofficial Python Library for Interacting with GEHU Student API
 
-Gehu_erp is a Python library that provides a simple interface for interacting with the GEHU (Generic Educational Institution) Student API. With this library, you can perform various actions, such as logging in, retrieving student details, and more.
+Gehu_erp is a Unofficial Python library that provides a simple interface for interacting with the GEHU (Graphic Era Hill University) Student erp. With this library, you can perform various actions, such as logging in, retrieving student details, change password,change photo and more.
 
 ## Installation
 
@@ -24,7 +24,7 @@ password = "your_password"
 client.login(user, password)
 
 # Get student details
-data = client.info()
+data = client.student_info()
 
 # Print student details
 for key, value in data.items():
