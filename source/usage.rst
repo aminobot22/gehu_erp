@@ -15,13 +15,14 @@ To start using Gehu_erp, follow these steps:
 
    client = erp.Client()
 
+   --use_config in Client to save you login details so that you won't have to login again and again 
+
 3. Generate session and log in:
 
 .. code-block:: python
 
    user = "your_username"
    password = "your_password"
-   client.gen()
    client.login(user, password)
 
 4. Perform various actions using the library's functions. For example:
@@ -30,9 +31,8 @@ To start using Gehu_erp, follow these steps:
 
    .. code-block:: python
 
-      data = client.info()
-      for key, value in data.items():
-          print(f"{key}: {value}")
+      data = client.student_info()
+      print(data)
 
    - Get exam summaries:
 
